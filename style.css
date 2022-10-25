@@ -4,7 +4,8 @@
     margin: 0;
 }
 body{
-    background-color:#ea5455;  
+   background-color:rgb(218, 35, 99);
+    color:white;
 }
 
 .table-wrap{
@@ -19,7 +20,7 @@ th, td{
     border: 1px solid #ddd;
 }
 table{
-    background: rgba(255, 255, 255, .2);
+     background-image: linear-gradient(rgb(233, 165, 165),rgb(253, 95, 122),rgb(217, 94, 94),rgb(244, 244, 75));
     width: 900px;
     height: 300px;
     table-layout: fixed;
