@@ -27,5 +27,5 @@ table{
     border: 1px #fff;
     border-collapse: collapse;
     font-weight: 700;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    box-shadow: 0 5px 15px rgba(0, 0.1, 0, .5);
 }
