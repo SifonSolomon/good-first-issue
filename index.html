@@ -1,62 +1,61 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta name="viewport" content="width-device-width, initial-scale=1.0">
-        <meta charset="utf-8">
-        <link href="style.css" rel="stylesheet">
-        <script src="table.js"></script>
-    </head>
-    <title>
-      A simple table stating your name and your learning track
-    </title>
-    <body>
-        <section >
-        <table class="table-wrap">
-            <th colspan="3" class>
-                A simple table stating your name and your learning track
-            </th>
-            <tr id="header">
-               <th>
-                    S/N
-                </th>
-                <th>
-                    Name
-                </th>
-                <th>
-                    Learning Track
-                </th>    
-            </tr>
-            <!--------- Copy This ------->
-            <tr>
-                <td>1</td>
-               <td> Sifon Solomon</td>
-               <td>Frontend Engineering</td>
-            </tr>
-            <tr>
-                <td>2</td>
-               <td> Onah Anthony</td>
-               <td>Cloud Engineering</td>
-            </tr>
-            <td>3</td>
-               <td> Akintibubo Pelumi</td>
-               <td>Frontend Engineering</td>
-            </tr>
-            <tr>
-                <td>4 </td>
-                <td>Olasoji Olamide</td>
-                <td>Frontend Engineering</td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td>Rashmi Subhash</td>
-                <td>Full Stack Developer</td>
-            </tr>
-
-
-
-            <!--------- Ends here ------->
-           
-    </table>
-        </section>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contributors Table</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container my-5">
+        <h1 class="text-center mb-4">Contributors Table</h1>
+        <p class="text-center">A simple table stating contributor names and their learning tracks</p>
+        
+        <!-- Responsive Table -->
+        <div class="table-responsive">
+            <table class="table table-striped table-bordered table-hover text-center align-middle">
+                <thead class="table-dark">
+                    <tr>
+                        <th>S/N</th>
+                        <th>Name</th>
+                        <th>Learning Track</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!--------- Copy This ------->
+                    <tr>
+                        <td>1</td>
+                        <td>Sifon Solomon</td>
+                        <td>Frontend Engineering</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Onah Anthony</td>
+                        <td>Cloud Engineering</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Akintibubo Pelumi</td>
+                        <td>Frontend Engineering</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Olasoji Olamide</td>
+                        <td>Frontend Engineering</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Rashmi Subhash</td>
+                        <td>Full Stack Developer</td>
+                    </tr>
+                    
+                    <!--------- Ends here ------->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
