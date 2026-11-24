@@ -7,11 +7,18 @@ body{
     background-color:#ea5455;  
 }
 
+.contribution-intro {
+    width: min(900px, calc(100% - 32px));
+    margin: 24px auto;
+}
+
+.contribution-intro p {
+    margin-top: 8px;
+}
+
 .table-wrap{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
+    width: min(900px, calc(100% - 32px));
+    margin: 0 auto 24px;
 }
 
 th, td{
